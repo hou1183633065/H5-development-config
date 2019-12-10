@@ -8,6 +8,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    console.log(this.$config);
+  }
+};
+</script>
+
 <style lang="stylus">
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif
