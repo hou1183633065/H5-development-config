@@ -4,8 +4,10 @@ import router from "./router";
 
 import "./utils/globalSetRem";
 import EnvConfig from "./utils/env.config";
-import ClientSystem from "./utils/client.system";
-console.log(ClientSystem);
+import ClientSystem from "./utils/client.info";
+console.log(navigator.userAgent.toLowerCase());
+
+console.info(ClientSystem);
 
 Vue.config.productionTip = false;
 Vue.prototype.$config = {
