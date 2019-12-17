@@ -2,7 +2,7 @@
  * @Author: houzhiqiag
  * @Date: 2019-12-09 10:57:37
  * @Last Modified by: houzhiqiag
- * @Last Modified time: 2019-12-09 11:24:05
+ * @Last Modified time: 2019-12-17 16:32:12
  */
 
 const UA = navigator.userAgent.toLowerCase();
@@ -140,17 +140,16 @@ if (test_UA(/micromessenger/gi)) {
 
 /**
 * 解析浏览器系统信息
-* export {
-    system: "系统",
-    system_v: "系统版本",
-    platform: "平台",
-    engine: "内核",
-    engine_v: "内核版本",
-    supporter: "载体",
-    supporter_v: "载体版本",
-    shell: "外壳",
-    shell_v: "外壳版本"
-} 
+* 
+  system: "系统",
+  system_v: "系统版本",
+  platform: "平台",
+  engine: "内核",
+  engine_v: "内核版本",
+  supporter: "载体",
+  supporter_v: "载体版本",
+  shell: "外壳",
+  shell_v: "外壳版本"
 */
 export default {
   system,
