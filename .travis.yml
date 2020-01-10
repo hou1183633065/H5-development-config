@@ -2,7 +2,8 @@ language: node_js
 os:
   - linux
   - osx
-servers
+servers: 
+  - docker
 node_js:
   - 6
   - 8
